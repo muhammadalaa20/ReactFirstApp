@@ -4,7 +4,8 @@ import Promo from  "./components/Promo"
 import Footer from "./components/Footer"
 function App() { 
   return ( 
-    <div>
+    //  <> fragment to wrap all components without leaving any trace in the browser HTML tree.
+    <> 
     <div className="main-nav"> 
       <Nav /> 
     </div> 
@@ -17,7 +18,7 @@ function App() {
     <div className="copyright">
       <Footer />
     </div>
-    </div>
+    </>
   ); 
 } 
  
