@@ -1,5 +1,6 @@
-function Nav(){
+function Nav(props){
     return(
+        <>
         <nav className="main-nav">
             <ul>
                 <li>Home</li>
@@ -8,6 +9,7 @@ function Nav(){
                 <li>Contact</li>
             </ul>
         </nav>
+        </>
     );
 };
 export default Nav;
