@@ -7,7 +7,7 @@ function App() {
     //  <> fragment to wrap all components without leaving any trace in the browser HTML tree.
     <> 
     <div className="main-nav"> 
-      <Nav /> 
+      <Nav  /> 
     </div> 
     <div className="info">
       <Intro />
